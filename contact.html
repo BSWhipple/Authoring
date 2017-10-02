@@ -2,8 +2,13 @@
 <html>
 <head>
 	<title> Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="./style.css"/>
 </head>
 	<body>
+	<div class="header">
+	<h1 class="headerTitle"> Contact Brendan</h1>
+	</div>
+	
 		<form action="https://formspree.io/bloved459@hotmail.com" method="post">
 			<label for="name">Name: </label>
 			<input id="name" type="text" name="name"/>
@@ -15,7 +20,9 @@
 			</br/>
 			<label for="message"> Message:</label>
 			<textarea id="message" name="message"></textarea>
-			<input type="submit"/>
+			<br />
+			<input id="submit" type="submit"/>
 		</form>
+	
 </body>
 </html>
