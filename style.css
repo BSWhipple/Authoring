@@ -24,7 +24,7 @@ li {
     overflow: hidden;
     width: 100%;
     margin: -8px;
-    height: 23%;
+    height: 139px;
     margin-bottom: 34px;
 }
 .headerTitle {
@@ -33,9 +33,33 @@ li {
 	font-size: 3em
 }
 body {
-	background-color: gray;
+	
 	margin-right: -9px;
 }
 p {
 	padding-right: 12px;
+}
+.image-card {
+	display: inline-block;
+	margin: 15px;
+	width: 21%;
+    height: 250px;
+	overflow: hidden;
+    background-color: white;
+	box-shadow: 0px 0px 7px #888888;
+	
+}
+a .image-card:hover {
+	box-shadow: 0px 0px 24px #888888;
+}
+.image-card p {
+	padding-left: 5px;
+	text-align: center;
+	line-height: 10px;
+    font-weight: lighter;
+    color: black;
+}
+#container {
+	padding: 0px 20px 0px 20px;
+	margin-left: 80px;
 }
