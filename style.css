@@ -59,6 +59,10 @@ a .image-card:hover {
     font-weight: lighter;
     color: black;
 }
+.image-card img {
+	border-bottom: solid 1px #888888;
+	
+}
 #container {
 	padding: 0px 20px 0px 20px;
 	margin-left: 80px;
