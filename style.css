@@ -67,3 +67,16 @@ a .image-card:hover {
 	padding: 0px 20px 0px 20px;
 	margin-left: 80px;
 }
+#lightbox {
+    position:fixed; 
+    width:100%; 
+    height:100%; 
+	top:0; 
+    left:0; 
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+    
+}
+.light-img {
+	margin-top: 20%;
+}
